@@ -1,0 +1,42 @@
+{
+  "name": "gmap-mvt",
+  "version": "0.1.0",
+  "description": "Library for displaying MVT source on googlemap",
+  "main": "./dist/mvt-map-type.umd.js",
+  "module": "./dist/mvt-map-type.mjs",
+  "types": "./types/MvtMapType.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okame/gmap-mvt.git"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "googlemap",
+    "MVT"
+  ],
+  "author": "okame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okame/gmap-mvt/issues"
+  },
+  "homepage": "https://github.com/okame/gmap-mvt#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/google.maps": "^3.55.12",
+    "eslint": "^9.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.3"
+  }
+}
