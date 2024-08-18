@@ -1,5 +1,5 @@
 {
-  "name": "gmap-mvt",
+  "name": "@okame/gmap-mvt",
   "version": "0.1.0",
   "description": "Library for displaying MVT source on googlemap",
   "main": "./dist/mvt-map-type.umd.js",
