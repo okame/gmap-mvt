@@ -57,7 +57,9 @@ window.initMap = () => {
   })
   const options = {
     style,
-    filterFeature
+    filterFeature,
+    minZoom: 9,
+    maxZoom: 10
   }
 
   const mapType = new MvtMapType(map, LAYER_URL, options)
