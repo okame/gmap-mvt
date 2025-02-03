@@ -70,9 +70,11 @@ export class MvtMapType implements google.maps.MapType {
     }
     if (options.maxZoom) {
       this.maxZoom = options.maxZoom
+      this.map.setOptions({ maxZoom: options.maxZoom })
     }
     if (options.minZoom) {
       this.minZoom = options.minZoom
+      this.map.setOptions({ minZoom: options.minZoom })
     }
     if (options.projection) {
       this.projection = options.projection
